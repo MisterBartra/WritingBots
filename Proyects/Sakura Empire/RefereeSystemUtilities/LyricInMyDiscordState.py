@@ -71,11 +71,11 @@ BartraUtils.time.sleep(10)
 login_div = driver.find_element(By.CLASS_NAME, 'marginTop20_d88ee7')
 
 username = login_div.find_element(By.ID, "uid_7")
-username.send_keys("jedujakin16@gmail.com")
+username.send_keys("email")
 
 # Enter password
 password = login_div.find_element(By.ID, "uid_9")
-password.send_keys("Mimientacones")
+password.send_keys("password")
 
 button_submit = driver.find_element(By.XPATH, "//button/div[text()='Iniciar sesión']")
 #button_submit = drive.find_element(By.XPATH, "//button[@ype='submit' and @class='button__47891']")
